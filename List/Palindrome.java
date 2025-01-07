@@ -33,7 +33,7 @@ public class Palindrome {
     }
 
     public static boolean IsListPalindromebetter(Node head){
-        Stack<Character> stack = getStack(head);
+        Stack<Character> stack = new Stack<>();
         Node fest = head;
         Node slow = head;
 
