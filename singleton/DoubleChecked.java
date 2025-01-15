@@ -1,4 +1,4 @@
-package il.co.ilrd.book.singleton;
+package singleton;
 
 public class DoubleChecked {
     private static volatile DoubleChecked instance;

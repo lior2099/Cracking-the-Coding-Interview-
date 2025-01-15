@@ -1,7 +1,7 @@
-package il.co.ilrd.book.tree.test;
+package tree.test;
 
-import il.co.ilrd.book.tree.ValidateBST;
-import il.co.ilrd.book.tree.ValidateBST.TreeNode;
+import tree.ValidateBST;
+import tree.ValidateBST.TreeNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;

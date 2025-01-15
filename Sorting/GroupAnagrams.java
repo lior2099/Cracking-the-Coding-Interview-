@@ -1,4 +1,4 @@
-package il.co.ilrd.book.Sorting;
+package Sorting;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package il.co.ilrd.book.Recursion;
+package Recursion;
 
 public class TowerOfHanoi {
     public static void towerOfHanoi(int n, char from_rod, char to_rod, char helper_rod)

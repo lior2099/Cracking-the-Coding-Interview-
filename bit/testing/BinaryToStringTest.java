@@ -1,6 +1,6 @@
-package il.co.ilrd.book.bit.testing;
+package bit.testing;
 
-import il.co.ilrd.book.bit.BinarytoString;
+import bit.BinarytoString;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

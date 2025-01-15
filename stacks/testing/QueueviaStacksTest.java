@@ -1,8 +1,8 @@
-package il.co.ilrd.book.stacks.testing;
+package stacks.testing;
 
 import static org.junit.Assert.*;
 
-import il.co.ilrd.book.stacks.QueueviaStacks;
+import stacks.QueueviaStacks;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
-package il.co.ilrd.book.Recursion.test;
+package Recursion.test;
 
-import il.co.ilrd.book.Recursion.PaintFill;
+import Recursion.PaintFill;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,4 +1,4 @@
-package il.co.ilrd.book.List;
+package List;
 
 public class DeleteMiddleNode {
     /*
@@ -13,42 +13,43 @@ public class DeleteMiddleNode {
 
      */
 
-    public static void removeMid(Node curr){
+    public static void removeMid(Node curr) {
 
         curr.value = curr.next.value;
         curr.next = curr.next.next;
     }
 
-    private static class Node{
+    private static class Node {
         Integer value;
         Node next;
 
-        public Node(Integer value){
+        public Node(Integer value) {
             this.value = value;
             this.next = null;
         }
 
-        public boolean hasNext(){
+        public boolean hasNext() {
             return !(next == null);
         }
 
-        public int getValue(){
+        public int getValue() {
             return value;
         }
 
-        public void setValue(Integer value){
+        public void setValue(Integer value) {
             this.value = value;
         }
-        public void setNext(Node next){
+
+        public void setNext(Node next) {
             this.next = next;
         }
 
     }
 
-    private static void printMe(Node node , String text){
+    private static void printMe(Node node, String text) {
 
         System.out.println(text);
-        while (node != null){
+        while (node != null) {
             System.out.print(node.value);
             node = node.next;
             System.out.print("->");
@@ -62,12 +63,12 @@ public class DeleteMiddleNode {
         tree1.next = new Node(20);
         tree1.next.next = new Node(30);
         tree1.next.next.next = new Node(40);
-        tree1.next.next.next.next= new Node(20);
-        tree1.next.next.next.next.next= new Node(10);
+        tree1.next.next.next.next = new Node(20);
+        tree1.next.next.next.next.next = new Node(10);
 
-        printMe(tree1 , "before the remove");
+        printMe(tree1, "before the remove");
         removeMid(tree1.next.next);
-        printMe(tree1 , "after the remove");
+        printMe(tree1, "after the remove");
 
     }
 }

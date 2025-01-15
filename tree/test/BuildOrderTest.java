@@ -1,6 +1,6 @@
-package il.co.ilrd.book.tree.test;
+package tree.test;
 
-import il.co.ilrd.book.tree.BuildOrder;
+import tree.BuildOrder;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

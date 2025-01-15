@@ -1,4 +1,4 @@
-package il.co.ilrd.book.logic;
+package logic;
 
 public class TheHeavyPill {
 

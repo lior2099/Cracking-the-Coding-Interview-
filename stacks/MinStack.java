@@ -1,4 +1,4 @@
-package il.co.ilrd.book.stacks;
+package stacks;
 
 
 import java.util.EmptyStackException;

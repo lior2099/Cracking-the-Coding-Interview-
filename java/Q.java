@@ -1,4 +1,4 @@
-package il.co.ilrd.book.java;
+package java;
 
 public class Q {
 

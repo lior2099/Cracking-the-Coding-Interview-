@@ -1,11 +1,6 @@
-package il.co.ilrd.book.Arrays;
+package Arrays;
 
-import il.co.ilrd.pair.Pair;
-import il.co.ilrd.sorting_algorithm.QuickSort;
-
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.Set;
 
 public class Unique {
     public static boolean isUniqueNoSpace(String str){

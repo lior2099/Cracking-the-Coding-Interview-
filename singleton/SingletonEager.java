@@ -1,4 +1,4 @@
-package il.co.ilrd.book.singleton;
+package singleton;
 
 public class SingletonEager {
     private static final SingletonEager instance = new SingletonEager();

@@ -1,4 +1,4 @@
-package il.co.ilrd.book.bit;
+package bit;
 
 public class BinarytoString {
 

@@ -1,9 +1,8 @@
-package il.co.ilrd.book.stacks;
+package stacks;
 
 import java.util.ArrayList;
 import java.util.EmptyStackException;
 import java.util.Objects;
-import java.util.Stack;
 
 public class StackofPlates {
     /*

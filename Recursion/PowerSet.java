@@ -1,4 +1,4 @@
-package il.co.ilrd.book.Recursion;
+package Recursion;
 
 import java.util.ArrayList;
 import java.util.List;

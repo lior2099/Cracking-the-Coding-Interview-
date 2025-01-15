@@ -1,4 +1,4 @@
-package il.co.ilrd.book.stacks;
+package stacks;
 
 public class FixedStack<T> {
     private T[] stack;

@@ -1,6 +1,6 @@
-package il.co.ilrd.book.tree.test;
+package tree.test;
 
-import il.co.ilrd.book.tree.Successor;
+import tree.Successor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package il.co.ilrd.book.Recursion;
+package Recursion;
 
 public class MagicIndex {
     /*

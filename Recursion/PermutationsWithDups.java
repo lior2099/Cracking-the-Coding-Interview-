@@ -1,4 +1,4 @@
-package il.co.ilrd.book.Recursion;
+package Recursion;
 
 import java.util.Arrays;
 import java.util.HashSet;

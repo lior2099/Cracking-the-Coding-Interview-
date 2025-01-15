@@ -1,4 +1,4 @@
-package il.co.ilrd.book.Arrays;
+package Arrays;
 
 import java.util.HashMap;
 

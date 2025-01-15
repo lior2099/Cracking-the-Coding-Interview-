@@ -1,7 +1,5 @@
-package il.co.ilrd.book.List;
+package List;
 
-
-import il.co.ilrd.testme.testme;
 
 import java.util.HashSet;
 import java.util.Set;

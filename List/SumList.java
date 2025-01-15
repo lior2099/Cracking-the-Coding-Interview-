@@ -1,4 +1,4 @@
-package il.co.ilrd.book.List;
+package List;
 
 public class SumList {
 

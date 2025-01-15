@@ -1,4 +1,4 @@
-package il.co.ilrd.book.tree;
+package tree;
 
 import java.util.LinkedList;
 import java.util.Queue;
