@@ -1,5 +1,3 @@
-package il.co.ilrd.book;
-
 public class FizzBuzz extends Thread {
     /*
      * FizzBuzz: Multithreaded version of FizzBuzz. Four threads:
