@@ -1,22 +1,19 @@
 package LeetCode;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class validAnagram {
     public static boolean isAnagram(String s, String t) {
 
-//        Map<Character, Integer> map = new HashMap<>();
+//        Map<Character, Integer> mapCtoI = new HashMap<>();
 //
 //        for (int i = 0; i < s.length(); i++) {
-//            map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
+//            mapCtoI.put(s.charAt(i), mapCtoI.getOrDefault(s.charAt(i), 0) + 1);
 //        }
 //
 //        for (int i = 0; i < t.length(); i++) {
-//            map.put(t.charAt(i), map.getOrDefault(t.charAt(i), 0) - 1);
+//            mapCtoI.put(t.charAt(i), mapCtoI.getOrDefault(t.charAt(i), 0) - 1);
 //        }
 //
-//        for (int num : map.values()) {
+//        for (int num : mapCtoI.values()) {
 //            if (num != 0) return false;
 //        }
 //        return true;

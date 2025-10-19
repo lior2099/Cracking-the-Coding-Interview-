@@ -25,10 +25,10 @@ public class romanToInteger {
 //        int sum = 0;
 //
 //        for (int i = 0; i < s.length(); i++) {
-//            int num = map.get(s.charAt(i));
+//            int num = mapCtoI.get(s.charAt(i));
 //
 //            if (i +1 <  s.length()) {
-//                int nextNum = map.get(s.charAt(i+1));
+//                int nextNum = mapCtoI.get(s.charAt(i+1));
 //                if (nextNum > num) {
 //                    sum -= num;
 //                    continue;
