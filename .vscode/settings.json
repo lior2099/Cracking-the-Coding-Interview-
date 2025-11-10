@@ -1,0 +1,6 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.import.maven.enabled": true,
+  "maven.executable.preferMavenWrapper": false,
+  "cSpell.words": ["Binaryto"]
+}

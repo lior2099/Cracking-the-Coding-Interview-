@@ -41,7 +41,7 @@ public class StackofPlates {
         }
         Objects toSend = lest.pop();
         if (lest.isEmpty()){
-            stacks.removeLast();
+            stacks.remove(stacks.size() - 1);
         }
 
         return toSend;
@@ -78,7 +78,7 @@ public class StackofPlates {
         if (stacks.isEmpty()){
             return null;
         } else {
-            return stacks.getLast();
+            return stacks.get(stacks.size() - 1);
         }
     }
 

@@ -1,9 +1,13 @@
-import bit.BinarytoString;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+package bit.testing;
 
-class BinaryToStringTest {
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
+
+import bit.BinarytoString;
+
+public class BinaryToStringTest {
     @Test
+    @SuppressWarnings("unused")
     void testValidBinary() {
         BinarytoString converter = new BinarytoString();
 
@@ -14,6 +18,7 @@ class BinaryToStringTest {
     }
 
     @Test
+    @SuppressWarnings("unused")
     void testErrorCase() {
         BinarytoString converter = new BinarytoString();
 
